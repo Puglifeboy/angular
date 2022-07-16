@@ -3,6 +3,7 @@ tasks:
   - init: npm install -g @angular/cli # runs during prebuild
     command: |
       cd josh2.0
+      npm install
       ng start
       echo hello
 
